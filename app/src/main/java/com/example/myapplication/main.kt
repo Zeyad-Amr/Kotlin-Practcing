@@ -36,7 +36,7 @@ fun main(){
 
      */
 
-
+/*
     /// When statement
     val x:Int=101
     when(x){
@@ -65,7 +65,9 @@ fun main(){
         print(" ")
     }
     println()
+*/
 
+    /*
     /// NULL
     val num:Int? =null
 
@@ -73,4 +75,33 @@ fun main(){
     println(num?.toLong()) // ? -> Safe call
     println(num?.toLong()?:4) // ?: ->  Elvis (if num != null return num, if num == num return 4)
 
+    */
+
+
+    /* Functions
+//    val result=plusToNumbers(5,6);
+//    val resultFun= { plusToNumbers(6, 6) };
+//    val resultLamda:()->Int= { plusToNumbers(6, 6) };
+//    println(result)
+//    println(resultFun())
+//    println(resultLamda())
+
+//    sum(4,5,function= { plusToNumbers(4,5) })
+
+
+     */
 }
+/* Functions
+//fun plusToNumbers(num1:Int,num2:Int):Int{
+//    return num1+num2;
+//}
+//
+////fun plusToNumbers(num1:Int,num2:Int):Int=num1+num2
+//
+//fun sum(num1:Int,num2:Int, function:()->Int){
+//    print("$num1 + $num2 = ")
+//    val result = function()
+//    println(result)
+//}
+
+*/
